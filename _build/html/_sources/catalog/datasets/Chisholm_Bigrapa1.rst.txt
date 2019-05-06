@@ -63,6 +63,18 @@ Prochlorococcus counts were obtained by gating across chlorophyll fluorescence (
 At station 1, the mixed layer samples do not have technical replicates. In the first few attempted flow cytometry runs Prochlorococcus cells were not visible - not because their fluorescence was low (these waters are relatively turbid), but because the cells were scarce. Later, the remainders of these samples were used for single, long slow runs, and we were able to detect a small Prochlorococcus population - these counts are not robust, representing small numbers with background noise, but they round out the depth profile for a rough idea.
 
 
+
+
+Enumerated flow cytometry abundance of Prochlorococcus
+######################################################
+
+.. raw:: html
+
+    <iframe src="../../_static/var_plots/bigrapa_vis.html"  frameborder = 0  height="700px" width="100%">></iframe>
+
+|
+
+
 Prochlorococcus ecotype qPCR counts for the BiG RAPA cruise
 ###########################################################
 
