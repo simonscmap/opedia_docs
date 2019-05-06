@@ -40,15 +40,17 @@ Unlike a conventional flow cytometer, SeaFlow directly analyzes a raw stream of 
 
 |
 
-Sample of SeaFlow Prochlorococcus Abandance
--------------------------------------------
+
+
+Sample of SeaFlow Prochlorococcus Abundance
+###########################################
 
 .. raw:: html
 
-    <iframe src="../../_static/var_plots/prochloro.html"  frameborder = 0  height="700px" width="100%">></iframe>
-
+    <iframe src="../../_static/var_plots/seaflow_vis.html"  frameborder = 0  height="700px" width="100%">></iframe>
 
 |
+
 
 Data Source
 ***********

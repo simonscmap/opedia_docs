@@ -48,22 +48,15 @@ The specific cruises used to compile the datasets are listed by the authors in t
 |
 
 Global Prochlorococcus Distribution (0-5 m)
--------------------------------------------
+###########################################
 
 .. raw:: html
 
-    <iframe src="../../_static/var_plots/prochlorococcus_abundance_flombaum.html"  frameborder = 0  height="700px" width="100%">></iframe>
+    <iframe src="../../_static/var_plots/flombaum_vis.html"  frameborder = 0  height="700px" width="100%">></iframe>
 
 |
 
-Global Synechococcus Distribution (0-5 m)
--------------------------------------------
 
-.. raw:: html
-
-    <iframe src="../../_static/var_plots/synechococcus_abundance_flombaum.html"  frameborder = 0  height="700px" width="100%">></iframe>
-
-|
 
 Data Source
 ***********

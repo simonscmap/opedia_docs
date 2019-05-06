@@ -41,6 +41,15 @@ Argo, the broad-scale global array of temperature/salinity profiling floats, is 
 Argo consists of nearly 3800 floats and has a rough spatial resolution of ~ 3° X 3°
 
 
+Sample of Argo Chlorophyll-A (0-50m)
+####################################
+
+.. raw:: html
+
+    <iframe src="../../_static/var_plots/argo_vis.html"  frameborder = 0  height="700px" width="100%">></iframe>
+
+|
+
 
 
 Data Source
