@@ -38,10 +38,21 @@ Dataset Description
 *******************
 
 
-
-
 This dataset contains Prochlorococcus Synechococcus Abundance abundance measurements from the AMT13 cruise.
 Quantitative polymerase chain reaction (qPCR) was used to measure the abundance of cells belonging to six Prochlorococcus ecotypes as a function of depth along a meridional transect in the Atlantic Ocean (AMT13: Sept. to Oct. 2003). This transect included a wide range of biogeochemical provinces; sampling sites had varied temperatures and concentrations of phytoplankton nutrients. The distribution and abundance of the ecotypes were analyzed in the context of environmental variables (the ones included in this dataset) as well as the physiological properties of type strains. Ecotype abundances were found to shift along both local and basin-wide environmental gradients. These shifts in ecotype abundances were correlated with temperature; in line with this, cultured strains showed different temperature optima and tolerance ranges in laboratory experiments. The distribution of ecotypes also appeared to be affected by light, nutrients, and competitor abundances.
+
+
+
+Total qPCR abundance of Prochlorococcus strains MED4, MIT9312, MIT9211, NATL2A, SS120, MIT9313
+##############################################################################################
+
+
+
+.. raw:: html
+
+    <iframe src="../../_static/var_plots/amt13_vis.html"  frameborder = 0  height="700px" width="100%">></iframe>
+
+|
 
 
 
