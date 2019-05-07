@@ -15,6 +15,30 @@ Sea Surface Temperature
    :scale: 10%
    :align: middle
 
+.. |rm| image:: /_static/tutorial_pics/regional_map.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/regional_map_gridded.html
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+ :align: middle
+ :scale: 20%
+ :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/depth_profile.html
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
@@ -24,18 +48,27 @@ Sea Surface Temperature
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
 
 
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+
+| |rm|                      |    |ts|                   |           |hst|           |
++---------------------------+---------------------------+---------------------------+
+|**Regional Gridded Map**   | **Time Series**           |  **Histogram**            |
++---------------------------+---------------------------+---------------------------+
+
 Table of Variables
 ******************
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/Near-Real-Time%20SST%20AVHRR_OI/Near-Real-Time%20SST%20AVHRR_OI.html"  frameborder = 0 height = '200px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/Near-Real-Time%20SST%20AVHRR_OI/Near-Real-Time%20SST%20AVHRR_OI.html"  frameborder = 0 height = '100px' width="100%">></iframe>
 
 |
 
 .. raw:: html
 
-    <iframe src="../../_static/var_plots/sst.html"  frameborder = 0  height="700px" width="100%">></iframe>
+    <iframe src="../../_static/var_plots/sst.html"  frameborder = 0  height="500px" width="100%">></iframe>
 
 
 

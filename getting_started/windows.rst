@@ -1,12 +1,12 @@
-.. _Install Anaconda Distribution (Prefer Python 3+): https://www.anaconda.com/download/#windows
+.. _Install Anaconda Distribution (Python 3+): https://www.anaconda.com/download/#windows
 
 
 Windows
 =======
 
-+----------------------------------------------------+
-|`Install Anaconda Distribution (Prefer Python 3+)`_ |
-+----------------------------------------------------+
++---------------------------------------------+
+|`Install Anaconda Distribution (Python 3+)`_ |
++---------------------------------------------+
 
 
 
@@ -25,11 +25,18 @@ Windows
 
     Run Command Prompt as Administrator and then enter:
 
+**Optional Libraries (only required if installing Windows desktop app)**
+
 .. code-block:: none
 
-    conda install shapely
-    conda install fiona
+    conda install shapely (optional
+    conda install fiona (optional
     conda install -c conda-forge geopandas
+
+**Required Libraries**
+
+.. code-block:: none
+
     pip install opedia
 
 

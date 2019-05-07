@@ -15,6 +15,30 @@ Altimetry Reprocessed
    :align: middle
 
 
+.. |rm| image:: /_static/tutorial_pics/regional_map.png
+ :align: middle
+ :scale: 20%
+ :target: ../../tutorials/regional_map_gridded.html
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 | Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
@@ -22,20 +46,31 @@ Altimetry Reprocessed
 | :ref:`Altimetry_REP`          |  |globe| | |sat|    | Observation |     1/4° X 1/4°        |         Daily        |  2013-01-01  | 2018-06-10 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
+
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+
+| |rm|                      |    |ts|                   |           |hst|           |
++---------------------------+---------------------------+---------------------------+
+|**Regional Gridded Map**   | **Time Series**           |  **Histogram**            |
++---------------------------+---------------------------+---------------------------+
+
+
 Table of Variables
 ******************
 
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/Reprocessed%20Altimetry/Reprocessed%20Altimetry.html"  frameborder = 0 height = '300px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/Reprocessed%20Altimetry/Reprocessed%20Altimetry.html"  frameborder = 0 height = '250px' width="100%">></iframe>
 
 |
 
 
 .. raw:: html
 
-    <iframe src="../../_static/var_plots/adt.html"  frameborder = 0  height="700px" width="100%">></iframe>
+    <iframe src="../../_static/var_plots/adt.html"  frameborder = 0  height="500px" width="100%">></iframe>
 
 
 

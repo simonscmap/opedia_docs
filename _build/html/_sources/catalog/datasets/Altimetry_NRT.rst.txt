@@ -14,6 +14,30 @@ Altimetry Near-Real-Time
    :scale: 10%
    :align: middle
 
+.. |rm| image:: /_static/tutorial_pics/regional_map.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/regional_map_gridded.html
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+----------------+
@@ -22,6 +46,15 @@ Altimetry Near-Real-Time
 | :ref:`Altimetry_NRT`          |  |globe| | |sat|    | Observation |     1/4° X 1/4°        |         Daily        |  2019-01-01  | Near-Real-Time |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+----------------+
 
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+
+| |rm|                      |    |ts|                   |           |hst|           |
++---------------------------+---------------------------+---------------------------+
+|**Regional Gridded Map**   | **Time Series**           |  **Histogram**            |
++---------------------------+---------------------------+---------------------------+
+
 
 Table of Variables
 ******************
@@ -29,14 +62,14 @@ Table of Variables
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/Near-Real-Time%20Altimetry/Near-Real-Time%20Altimetry.html"  frameborder = 0 height = '300px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/Near-Real-Time%20Altimetry/Near-Real-Time%20Altimetry.html"  frameborder = 0 height = '250px' width="100%">></iframe>
 
 |
 
 
 .. raw:: html
 
-    <iframe src="../../_static/var_plots/sla.html"  frameborder = 0  height="700px" width="100%">></iframe>
+    <iframe src="../../_static/var_plots/sla.html"  frameborder = 0  height="500px" width="100%">></iframe>
 
 
 

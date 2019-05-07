@@ -14,7 +14,35 @@ LCS Reprocessed
    :scale: 10%
    :align: middle
 
+.. |rm| image:: /_static/tutorial_pics/regional_map.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/regional_map_gridded.html
 
+.. |ts| image:: /_static/tutorial_pics/TS.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
+.. |fr| image:: /_static/tutorial_pics/front.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/front.html
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 | Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
@@ -23,6 +51,15 @@ LCS Reprocessed
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
 
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+---------------------------+
+| |rm|                      |    |ts|                   |           |hst|           | |fr|                      |
++---------------------------+---------------------------+---------------------------+---------------------------+
+|**Regional Gridded Map**   | **Time Series**           |  **Histogram**            | **Front Sampling**        |
++---------------------------+---------------------------+---------------------------+---------------------------+
+
 Table of Variables
 ******************
 
@@ -30,7 +67,6 @@ Table of Variables
 
     <iframe src="../../_static/var_tables/LCS_REP/LCS_REP.html"  frameborder = 0 height = '300px' width="100%">></iframe>
 
-|
 
 Dataset Description
 *******************

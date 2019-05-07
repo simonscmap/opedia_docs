@@ -14,6 +14,35 @@ Wind
    :scale: 10%
    :align: middle
 
+.. |rm| image:: /_static/tutorial_pics/regional_map.png
+ :align: middle
+ :scale: 20%
+ :target: ../../tutorials/regional_map_gridded.html
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
+
+.. note::
+  Near-real-time wind data products from IFREMER CERSAT have been suspended as of 2019-03-06. When data operations resume, near-real-time wind data will be provided.
+
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
@@ -23,12 +52,15 @@ Wind
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
 
+Recommended Visualizations
+**************************
 
-.. note::
-  Near-real-time wind data products from IFREMER CERSAT have been suspended as of 2019-03-06. When data operations resume, near-real-time wind data will be provided.
++---------------------------+---------------------------+---------------------------+
+| |rm|                      |    |ts|                   |           |hst|           |
++---------------------------+---------------------------+---------------------------+
+|**Regional Gridded Map**   | **Time Series**           |  **Histogram**            |
++---------------------------+---------------------------+---------------------------+
 
-
-|
 
 
 
@@ -44,7 +76,7 @@ Table of Variables
 
 .. raw:: html
 
-    <iframe src="../../_static/var_plots/wind_stress.html"  frameborder = 0  height="700px" width="100%">></iframe>
+    <iframe src="../../_static/var_plots/wind_stress.html"  frameborder = 0  height="400px" width="100%">></iframe>
 
 
 

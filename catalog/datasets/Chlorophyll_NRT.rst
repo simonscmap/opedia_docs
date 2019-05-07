@@ -17,6 +17,32 @@ Chlorophyll Near-Real-Time
    :align: middle
 
 
+.. |rm| image:: /_static/tutorial_pics/regional_map.png
+ :align: middle
+ :scale: 20%
+ :target: ../../tutorials/regional_map_gridded.html
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
+
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
 | Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date    |
@@ -29,10 +55,17 @@ Table of Variables
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/Near-Real-Time%20CHL_OI/Near-Real-Time%20CHL_OI.html"  frameborder = 0 height = '200px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/Near-Real-Time%20CHL_OI/Near-Real-Time%20CHL_OI.html"  frameborder = 0 height = '100px' width="100%">></iframe>
 
 
+Recommended Visualizations
+**************************
 
++---------------------------+---------------------------+---------------------------+
+| |rm|                      |    |ts|                   |           |hst|           |
++---------------------------+---------------------------+---------------------------+
+|**Regional Gridded Map**   | **Time Series**           |  **Histogram**            |
++---------------------------+---------------------------+---------------------------+
 
 
 Dataset Description

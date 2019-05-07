@@ -14,6 +14,37 @@ Eddy
    :scale: 10%
    :align: middle
 
+.. |sm| image:: /_static/tutorial_pics/sparse_mapping.png
+ :align: middle
+ :scale: 10%
+ :target: ../../tutorials/regional_map_sparse.html
+
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
+.. |edy| image:: /_static/tutorial_pics/eddy_sampling.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/eddy.html
+
 
 
 +------------------------+----------+--------+-------------+----------------------------+----------------------+--------------+------------+
@@ -21,6 +52,16 @@ Eddy
 +========================+==========+========+=============+============================+======================+==============+============+
 | :ref:`Eddy`            |  |globe| | |sat|  | Observation |       Irregular            |         Daily        |  2003-01-01  | 2015-04-23 |
 +------------------------+----------+--------+-------------+----------------------------+----------------------+--------------+------------+
+
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+---------------------------+
+| |sm|                      |    |ts|                   |           |hst|           |      |edy|                |
++---------------------------+---------------------------+---------------------------+---------------------------+
+|**Regional Sparse Map**    | **Time Series**           |  **Histogram**            |  **Eddy Sampling**        |
++---------------------------+---------------------------+---------------------------+---------------------------+
+
 
 Table of Variables
 ******************
@@ -31,6 +72,15 @@ Table of Variables
 
 |
 
+
+Sparse Mapping of Eddy Vorticity
+################################
+
+.. raw:: html
+
+    <iframe src="../../_static/var_plots/eddy_vort_vis.html"  frameborder = 0  height="700px" width="100%">></iframe>
+
+|
 
 
 Dataset Description

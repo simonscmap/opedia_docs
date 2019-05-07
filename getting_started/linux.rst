@@ -1,14 +1,14 @@
 
-.. _Install Anaconda Distribution (Prefer Python 3+): https://www.anaconda.com/download/#linux
+.. _Install Anaconda Distribution (Python 3+): https://www.anaconda.com/download/#linux
 
 
 Linux
 =====
 
 
-+----------------------------------------------------+
-|`Install Anaconda Distribution (Prefer Python 3+)`_ |
-+----------------------------------------------------+
++---------------------------------------------+
+|`Install Anaconda Distribution (Python 3+)`_ |
++---------------------------------------------+
 
 
 **Install Additional Python Modules**

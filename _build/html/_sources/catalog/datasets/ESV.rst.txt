@@ -5,13 +5,48 @@
 ESV - Exact Sequence Variants
 **************************************
 
+
+
 .. |cruise| image:: /_static/catalog_thumbnails/sailboat.png
    :scale: 10%
    :align: middle
 
 .. |globe| image:: /_static/catalog_thumbnails/globe.png
-   :scale: 10%
-   :align: middle
+  :scale: 10%
+  :align: middle
+
+.. |sm| image:: /_static/tutorial_pics/sparse_mapping.png
+  :align: middle
+  :scale: 10%
+  :target: ../../tutorials/regional_map_sparse.html
+
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
+.. |esv| image:: /_static/tutorial_pics/esv.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/ESV.html
+
+
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 | Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
@@ -21,6 +56,16 @@ ESV - Exact Sequence Variants
 
 .. note::
   ESV has been updated to include new data on April 23rd 2019.
+
+
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+---------------------------+
+| |esv|                     |    |ts|                   |           |hst|           |   |sm|                    |
++---------------------------+---------------------------+---------------------------+---------------------------+
+|**ESV Track**              | **Time Series**           |  **Histogram**            | **Regional Sparse Map**   |
++---------------------------+---------------------------+---------------------------+---------------------------+
 
 
 

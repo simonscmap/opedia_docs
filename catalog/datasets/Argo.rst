@@ -14,6 +14,36 @@ Argo
 .. |argo| image:: /_static/catalog_thumbnails/float_simple.png
    :scale: 10%
 
+.. |sm| image:: /_static/tutorial_pics/sparse_mapping.png
+ :align: middle
+ :scale: 10%
+ :target: ../../tutorials/regional_map_sparse.html
+
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+ :align: middle
+ :scale: 20%
+ :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/depth_profile.html
+
+.. |edy| image:: /_static/tutorial_pics/eddy_sampling.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/eddy.html
 
 
 +------------------------+----------+--------+-------------+----------------------------+----------------------+--------------+------------+
@@ -21,6 +51,17 @@ Argo
 +========================+==========+========+=============+============================+======================+==============+============+
 | :ref:`Argo`            | |globe|  | |argo| | Observation |      Irregular             |        Irregular     |  2002-09-08  | 2018-06-07 |
 +------------------------+----------+--------+-------------+----------------------------+----------------------+--------------+------------+
+
+
+
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+---------------------------+
+| |sm|                      |    |ts|                   |           |hst|           | |dep|                     |
++---------------------------+---------------------------+---------------------------+---------------------------+
+|**Regional Sparse Map**    | **Time Series**           |  **Histogram**            | **Depth Profile**         |
++---------------------------+---------------------------+---------------------------+---------------------------+
 
 
 Table of Variables

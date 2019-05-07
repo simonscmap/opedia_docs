@@ -14,11 +14,45 @@ Mixed-Layer-Depth NRT
    :scale: 10%
    :align: middle
 
+.. |rm| image:: /_static/tutorial_pics/regional_map.png
+ :align: middle
+ :scale: 20%
+ :target: ../../tutorials/regional_map_gridded.html
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 | Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 | :ref:`MLD`                    |  |globe| |  |comp|  |   Model     |     1/12° X 1/12°      |         Daily        | 2019-02-20   | 2019-03-20 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
+
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+
+| |rm|                      |    |ts|                   |           |hst|           |
++---------------------------+---------------------------+---------------------------+
+|**Regional Gridded Map**   | **Time Series**           |  **Histogram**            |
++---------------------------+---------------------------+---------------------------+
 
 
 Table of Variables
@@ -26,7 +60,7 @@ Table of Variables
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/Mercator-MLD/Mercator-MLD.html"  frameborder = 0 height = '150px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/Mercator-MLD/Mercator-MLD.html"  frameborder = 0 height = '100px' width="100%">></iframe>
 
 
 

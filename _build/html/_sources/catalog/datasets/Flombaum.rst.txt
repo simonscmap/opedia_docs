@@ -5,13 +5,47 @@
 Global Cyanobacteria (Flombaum)
 *******************************
 
+
+
 .. |cruise| image:: /_static/catalog_thumbnails/sailboat.png
    :scale: 10%
    :align: middle
 
 .. |globe| image:: /_static/catalog_thumbnails/globe.png
-   :scale: 10%
-   :align: middle
+  :scale: 10%
+  :align: middle
+
+.. |sm| image:: /_static/tutorial_pics/sparse_mapping.png
+  :align: middle
+  :scale: 10%
+  :target: ../../tutorials/regional_map_sparse.html
+
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
+.. |edy| image:: /_static/tutorial_pics/eddy_sampling.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/eddy.html
+
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
@@ -20,13 +54,23 @@ Global Cyanobacteria (Flombaum)
 |:ref:`Flombaum`                | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  1987-09-17  | 2008-11-10 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+
+| |sm|                      |    |ts|                   |           |hst|           |
++---------------------------+---------------------------+---------------------------+
+|**Regional Sparse Map**    | **Time Series**           |  **Histogram**            |
++---------------------------+---------------------------+---------------------------+
+
+
 
 Table of Variables
 ******************
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/tblFlombaum/tblFlombaum.html"  frameborder = 0 height = '200px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/tblFlombaum/tblFlombaum.html"  frameborder = 0 height = '150px' width="100%">></iframe>
 
 
 

@@ -16,18 +16,62 @@ LCS Near-Real-Time
 
 
 
+.. |rm| image:: /_static/tutorial_pics/regional_map.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/regional_map_gridded.html
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
+.. |fr| image:: /_static/tutorial_pics/front.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/front.html
+
+
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 | Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 | :ref:`LCS_NRT`                |  |globe| | |sat|    | Observation |     0.04° X 0.04°      |         Daily        |  2019-02-27  | 2019-03-20 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
+
+
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+---------------------------+
+| |rm|                      |    |ts|                   |           |hst|           | |fr|                      |
++---------------------------+---------------------------+---------------------------+---------------------------+
+|**Regional Gridded Map**   | **Time Series**           |  **Histogram**            | **Front Sampling**        |
++---------------------------+---------------------------+---------------------------+---------------------------+
+
+
+
 Table of Variables
 ******************
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/LCS_NRT/LCS_NRT.html"  frameborder = 0 height = '300px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/LCS_NRT/LCS_NRT.html"  frameborder = 0 height = '150px' width="100%">></iframe>
 
 
 Dataset Description

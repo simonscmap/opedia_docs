@@ -14,6 +14,38 @@ HOT
  :scale: 6%
  :align: middle
 
+.. |sm| image:: /_static/tutorial_pics/sparse_mapping.png
+ :align: middle
+ :scale: 10%
+ :target: ../../tutorials/regional_map_sparse.html
+
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+ :align: middle
+ :scale: 20%
+ :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/depth_profile.html
+
+.. |edy| image:: /_static/tutorial_pics/eddy_sampling.png
+ :align: middle
+ :scale: 25%
+ :target: ../../tutorials/eddy.html
+
+
 
 
 +------------------------+----------+--------+-------------+----------------------------+----------------------+--------------+------------+
@@ -21,6 +53,15 @@ HOT
 +========================+==========+========+=============+============================+======================+==============+============+
 | :ref:`HOT`             |   |hot|  | |buoy| | Observation |      Irregular             |        Irregular     |  1988-10-31  | 2017-11-09 |
 +------------------------+----------+--------+-------------+----------------------------+----------------------+--------------+------------+
+
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+
+|    |ts|                   |           |hst|           | |dep|                     |
++---------------------------+---------------------------+---------------------------+
+| **Time Series**           |  **Histogram**            | **Depth Profile**         |
++---------------------------+---------------------------+---------------------------+
 
 
 Table of Variables

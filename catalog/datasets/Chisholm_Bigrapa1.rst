@@ -12,18 +12,57 @@ Prochlorococcus Abundance and Metadata for the BigGrapa 1 Cruise
    :scale: 10%
    :align: middle
 
-
 .. |globe| image:: /_static/catalog_thumbnails/globe.png
   :scale: 10%
   :align: middle
 
+.. |sm| image:: /_static/tutorial_pics/sparse_mapping.png
+  :align: middle
+  :scale: 10%
+  :target: ../../tutorials/regional_map_sparse.html
 
+
+.. |ts| image:: /_static/tutorial_pics/TS.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/time_series.html
+
+.. |hst| image:: /_static/tutorial_pics/hist.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/histogram.html
+
+.. |sec| image:: /_static/tutorial_pics/section.png
+  :align: middle
+  :scale: 20%
+  :target: ../../tutorials/section.html
+
+.. |dep| image:: /_static/tutorial_pics/depth_profile.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/depth_profile.html
+
+.. |edy| image:: /_static/tutorial_pics/eddy_sampling.png
+  :align: middle
+  :scale: 25%
+  :target: ../../tutorials/eddy.html
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
 | Datset Name                   | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+==============+
 | | :ref:`Chisholm_bigrapa1`    | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  2010-11-19  | 2010-12-12   |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
+
+
+Recommended Visualizations
+**************************
+
++---------------------------+---------------------------+---------------------------+
+| |sm|                      |    |ts|                   |           |hst|           |
++---------------------------+---------------------------+---------------------------+
+|**Regional Sparse Map**    | **Time Series**           |  **Histogram**            |
++---------------------------+---------------------------+---------------------------+
+
 
 Table of Variables
 ******************

@@ -12,13 +12,18 @@ Map Gridded Data
 ================
 
 
-**Create a regional map using gridded satellite and modeled data**
 
-Notes:
+Gridded data from CMAP can be mapped using **plotRegional** function. This functionally is best for mapping gridded datasets such as satellite or model products.
+Multiple datasets and variables can be queried in one request.
 
-- The Pisces model is a weekly-averaged global model with spatial resolution  1/2° X 1/2°  (data is available only at one-week intervals).
-- Satellite SST data set is a daily-global product with spatial resolution  1/4° X 1/4° .
 
+
+Recommended Data Sets for Sparse Regional Mapping:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
++-----------------+------------------------+---------------+---------------+
+| :ref:`SST`      | :ref:`Chlorophyll_REP` | :ref:`Darwin` | :ref:`Pisces` |
++-----------------+------------------------+---------------+---------------+
 
 
 Code Tutorial
