@@ -1,10 +1,12 @@
 :orphan:
 
-.. _Flombaum:
+.. _pikophytoplankton:
 
-Global Cyanobacteria (Flombaum)
-*******************************
+Global Pikophytoplankton (Buitenhuis)
+*************************************
 
+Global Distributions of Picophytoplankton Abundance and Biomass
+###############################################################
 
 
 .. |cruise| image:: /_static/catalog_thumbnails/sailboat.png
@@ -19,7 +21,6 @@ Global Cyanobacteria (Flombaum)
   :align: middle
   :scale: 10%
   :target: ../../tutorials/regional_map_sparse.html
-
 
 .. |ts| image:: /_static/tutorial_pics/TS.png
   :align: middle
@@ -51,7 +52,7 @@ Global Cyanobacteria (Flombaum)
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 | Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
 +===============================+==========+==========+=============+========================+======================+==============+============+
-|:ref:`Flombaum`                | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  1987-09-17  | 2008-11-10 |
+|:ref:`pikophytoplankton`       | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  1987-06-27  | 2011-08-03 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
 Recommended Visualizations
@@ -70,33 +71,33 @@ Table of Variables
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/tblFlombaum/tblFlombaum.html"  frameborder = 0 height = '150px' width="100%">></iframe>
-
-
-
-
-
-Dataset Description
-*******************
-
-
-
-The Global Cyanobacteria dataset in CMAP was compiled by Flombaum et al. It contains global observations of prochlorococcus and synechococcus abundance. The dataset consists of collections from 103 total cruises, sampling in every major ocean region.
-Due to their weak auto-fluoresence, only flow cytometry cell counts were used for prochlorococcus. Flow cytometry and microscope counts of synechococcus were included.
-
-
-The specific cruises used to compile the datasets are listed by the authors in the supporting information for the reference paper.
-(https://www.pnas.org/content/pnas/suppl/2013/05/23/1307701110.DCSupplemental/pnas.201307701SI.pdf?targetid=nameddest%3DST1)
+    <iframe src="../../_static/var_tables/tblGlobal_PicoPhytoPlankton/tblGlobal_PicoPhytoPlankton.html"  frameborder = 0 height = '150px' width="100%">></iframe>
 
 
 |
 
-Global Prochlorococcus Distribution (0-5 m)
-###########################################
+Dataset Description
+*******************
+
+This dataset is a collection of Picophytoplankton abundances and biomass measurements from 75 cruises and stations around the global ocean. It contains flow cytometry derived abundance measurements for prochlorococcus, synenchoccous and picoeukaryotes as as well as total pikophytoplankton abundance and biomass.
+The specific cruise names used to compile the dataset are listed in Table 1. of the authors paper. Conversion factors from cell abundance to carbon biomass are listed in Table 2.
+(https://doi.org/10.1594/PANGAEA.777385)
+
+
+
+ .. warning::
+   20229 of the total 40946 data points were excluded from the original dataset due to invalid dates. The raw dataset can be found at https://doi.org/10.1594/PANGAEA.777385
+
+
+
+|
+
+Global Picoeukaryote Abundance Distribution (0-5 m)
+###################################################
 
 .. raw:: html
 
-    <iframe src="../../_static/var_plots/flombaum_vis.html"  frameborder = 0  height="700px" width="100%">></iframe>
+    <iframe src="../../_static/var_plots/picoeuk_vis.html"  frameborder = 0  height="700px" width="100%">></iframe>
 
 |
 
@@ -105,14 +106,13 @@ Global Prochlorococcus Distribution (0-5 m)
 Data Source
 ***********
 
-Data provided by Pedro Flombaum et al. and is available at **http://gdps.cima.fcen.uba.ar/**
+Data provided by Buitenhuis et al. and is available at **https://doi.org/10.1594/PANGAEA.777385**
 
 How to Acknowledge
 ******************
 
-https://doi.org/10.1073/pnas.1307701110
+Buitenhuis, Erik Theodoor; Li, William K W; Vaulot, D; Lomas, Michael W; Landry, M R; Partensky, Frédéric; Karl, David Michael; Ulloa, Osvaldo; Campbell, L; Jacquet, Stéphan; Lantoine, F; Chavez, Francisco P; Macias, D; Gosselin, M; McManus, George B (2012): Global distributions of picophytoplankton abundance and biomass - Gridded data product (NetCDF) - Contribution to the MAREDAT World Ocean Atlas of Plankton Functional Types. PANGAEA, https://doi.org/10.1594/PANGAEA.777385
 
 Version History
 ***************
-
 **v1.0**
