@@ -3,8 +3,8 @@
 .. _Darwin:
 
 
-Darwin
-******
+Darwin Climatology
+******************
 
 
 .. |globe| image:: /_static/catalog_thumbnails/globe.png

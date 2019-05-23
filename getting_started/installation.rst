@@ -7,8 +7,10 @@
 .. _macOS: macos.html
 .. _Linux: linux.html
 
+.. _PyPI: https://github.com/mdashkezari/opedia
+.. _Github: https://github.com/mdashkezari/opedia
 
-
+.. _Tutorials: ../../tutorials
 
 .. |windows| image:: /_static/installation_icons/windows.png
    :align: middle
@@ -34,7 +36,12 @@ Installation
 
 
 Simons CMAP is currently in development, but can be used in its present state.
-The two options for using Simons CMAP are either through a GUI (Graphical User Interface) for Windows and macOS or through a command line interface for Windows, macOS or Linux.
+The two options for using Simons CMAP are:
+
+| 1. Use the python package opedia found on PyPI_ or Github_. Examples of python code can be found in Tutorials_ section.
+
+| 2. Use the GUI (Graphical User Interface) for Windows and macOS.
+
 Future developments of Simons CMAP should be browser based and operating system agnostic.
 
 

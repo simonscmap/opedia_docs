@@ -70,7 +70,7 @@ Table of Variables
 
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/SeaFlow/SeaFlow.html"  frameborder = 0 height = '200px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/tblSeaFlow/tblSeaFlow.html"  frameborder = 0 height = '300px' width="100%">></iframe>
 
 
 

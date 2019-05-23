@@ -36,7 +36,7 @@ Jupyter_Notebook_
 
     DB = False                            # < True > if source data exists in the database. < 0 > if the source data set is a spreadsheet file on disk.
     source = './KM1314_ParticulateCobalamins_2018_06_12_vPublished.xlsx'            # the source table name (or full filename)
-    temporalTolerance = 1                # colocalizer temporal tolerance (+/- degrees)
+    temporalTolerance = 1                # colocalizer temporal tolerance (+/- days)
     latTolerance = 0.3                   # colocalizer meridional tolerance (+/- degrees)
     lonTolerance = 0.3                   # colocalizer zonal tolerance (+/- degrees)
     depthTolerance = 5                   # colocalizer depth tolerance (+/- meters)
