@@ -229,7 +229,24 @@
 </div>
 <div class="section" id="dataset-description">
 <h1>Dataset Description<a class="headerlink" href="#dataset-description" title="Permalink to this headline">¶</a></h1>
-<p>Exact sequence variants derived from the publicly-available data from the R/V Polarstern ANT28-5 cruise, which is a latitudinal transect from the bottom of South America to Europe. This dataset is comprised of various samples from different depths. Qiime2 was used to process sequence data from raw data obtained from NCBI.</p>
+<p>This dataset consists of relative microbial abundances (primarily Bacteria/Archaea) sampled across a latitudinal transect of the Atlantic ocean. Samples were collected between April - May 2012 on the cruise ANT28-5 (R/V Polarstern) by the research groups of Irene Wagner-Döbler (Technische Universität Braunschweig) and Meinhard Simon (Carl von Ossietzky University of Oldenburg). At each oceanographic station, multiple depths were sampled primarily in the photic zone (≤ 200 m), and each sample was sequentially filtered to obtain three size fractions:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Free-living (0.2 - 3 μm; FL)</li>
+<li>Small particle associated (3 - 8 μm; SPA)</li>
+<li>Large particle associated (&gt; 8 μm; LPA)</li>
+</ol>
+</div></blockquote>
+<p>Detailed methods are available in three previously-published papers that discuss large-scale patterns in microbial diversity, co-occurrence, and biogeography across this transect (Milici et al., 2016a, b, c).</p>
+<div class="section" id="dataset-reprocessing-for-cmap">
+<h2>Dataset reprocessing for CMAP:<a class="headerlink" href="#dataset-reprocessing-for-cmap" title="Permalink to this headline">¶</a></h2>
+<p>In order to generate exact amplicon sequence variants (eASVs), publicly accessible amplicon data from Milici et al. (2016) was reanalyzed with qiime2 (2018.8). In brief, primers were trimmed with cutadapt, amplicons were merged with VSEARCH, and subsequently quality-filtered. eASVs were generated with deblur denoise-16s with a trim length of 231 base pairs. Taxonomic classification was carried out with the “qiime feature-classifier classify-sklearn” against the SILVA 132 database (NR99) subsetted to the amplicon region (807F = GGATTAGATACCCBRGTAGTC ; 1064R = AGYTGDCGACRRCCRTGCA). eASVs were also clustered into operational taxonomic units (OTUs) with VSEARCH at different percent sequence similarity thresholds approximately corresponding to existing taxonomic ranks (99, 98, 97, 96, 92, 89). Scripts and ancillary data are available at : <a class="reference external" href="https://osf.io/g7xsj/">https://osf.io/g7xsj/</a>.
+Data were then transformed into relative abundances and collated with metadata provided in Milici et al (2016a, b, c) prior to ingestion into CMAP (as long as depths recorded for metadata and sequence data differed by ≤ 10 m; <a class="reference external" href="https://github.com/jcmcnch/OTUandMetadata2CMAP">https://github.com/jcmcnch/OTUandMetadata2CMAP</a>). The resulting dataset allows the user to retrieve relative abundances and environmental covariates for both individual eASVs and OTU clusters. As with all other data in CMAP, each relative abundance measurement is associated with unique time/space coordinates. Whether a given abundance is from an eASV or OTU is clearly denoted in the columns “ESV_ID_or_Cluster_Centroid”, “Clustering_Level” and “Cluster_Type”. Raw sequences of eASVs and tab-separated files are also available as part of the ancillary data allow the user to manually connect individual eASVs with OTU clusters.</p>
+</div>
+<div class="section" id="notes-on-data">
+<h2>Notes on data:<a class="headerlink" href="#notes-on-data" title="Permalink to this headline">¶</a></h2>
+<p>The primers used by Milici et al. (2016) are prokaryotic-specific, and do have mismatches to some important marine taxa (e.g. SAR11 group I). Despite these potential biases, SAR11 remain a high proportion of the total reads, and thus this bias is likely to have been small in practice. As noted in the original paper, these primers also do amplify chloroplast sequences, which are particularly abundant in the SPA and LPA fractions. In some of the particle-associated samples, there were some putatively eukaryotic sequences amplified, but they were excluded from this dataset by the positive filter of deblur.</p>
+</div>
 <div class="section" id="sample-of-cells-per-ml-for-50um-prefiltered-water">
 <h2>Sample of Cells per mL for 50uM Prefiltered Water<a class="headerlink" href="#sample-of-cells-per-ml-for-50um-prefiltered-water" title="Permalink to this headline">¶</a></h2>
 <iframe src="../../_static/var_plots/prok_cells_10E05_per_ml.html"  frameborder = 0  height="700px" width="100%">></iframe><div class="line-block">
@@ -246,12 +263,9 @@
 </div>
 <div class="section" id="how-to-acknowledge">
 <h1>How to Acknowledge<a class="headerlink" href="#how-to-acknowledge" title="Permalink to this headline">¶</a></h1>
-<div class="line-block">
-<div class="line"><a class="reference external" href="https://doi.org/10.3389/fmicb.2016.00649">https://doi.org/10.3389/fmicb.2016.00649</a></div>
-<div class="line"><a class="reference external" href="https://doi.org/10.1002/lno.10487">https://doi.org/10.1002/lno.10487</a></div>
-<div class="line"><a class="reference external" href="https://doi.org/10.3389/fmicb.2016.00590">https://doi.org/10.3389/fmicb.2016.00590</a></div>
-<div class="line"><a class="reference external" href="https://doi.org/10.1038/srep19054">https://doi.org/10.1038/srep19054</a></div>
-</div>
+<p>Milici, M., Tomasch, J., Wos-Oxley, M.L., Wang, H., Jáuregui, R., Camarinha-Silva, A., Deng, Z.-L., Plumeier, I., Giebel, H.-A., Wurst, M., Pieper, D.H., Simon, M., Wagner-Döbler, I., 2016a. Low diversity of planktonic bacteria in the tropical ocean. Scientific Reports 6, 19054. <a class="reference external" href="https://doi.org/10.1038/srep19054">https://doi.org/10.1038/srep19054</a></p>
+<p>Milici, M., Deng, Z.-L., Tomasch, J., Decelle, J., Wos-Oxley, M.L., Wang, H., Jáuregui, R., Plumeier, I., Giebel, H.-A., Badewien, T.H., Wurst, M., Pieper, D.H., Simon, M., Wagner-Döbler, I., 2016b. Co-occurrence Analysis of Microbial Taxa in the Atlantic Ocean Reveals High Connectivity in the Free-Living Bacterioplankton. Front. Microbiol. 7. <a class="reference external" href="https://doi.org/10.3389/fmicb.2016.00649">https://doi.org/10.3389/fmicb.2016.00649</a></p>
+<p>Milici, M., Tomasch, J., Wos-Oxley, M.L., Decelle, J., Jáuregui, R., Wang, H., Deng, Z.-L., Plumeier, I., Giebel, H.-A., Badewien, T.H., Wurst, M., Pieper, D.H., Simon, M., Wagner-Döbler, I., 2016c. Bacterioplankton Biogeography of the Atlantic Ocean: A Case Study of the Distance-Decay Relationship. Front. Microbiol. 7. <a class="reference external" href="https://doi.org/10.3389/fmicb.2016.00590">https://doi.org/10.3389/fmicb.2016.00590</a></p>
 </div>
 <div class="section" id="version-history">
 <h1>Version History<a class="headerlink" href="#version-history" title="Permalink to this headline">¶</a></h1>
