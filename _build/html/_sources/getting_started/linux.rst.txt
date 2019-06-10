@@ -17,9 +17,8 @@ Open Terminal and then enter:
 
 .. code-block:: none
 
-    conda install -c anaconda unixodbc
-    conda install -c anaconda freetds
-
+    sudo apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
+    
     pip install opedia
 
 
