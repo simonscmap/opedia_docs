@@ -18,8 +18,8 @@ Multiple datasets and variables can be queried in one request.
 
 
 
-Recommended Data Sets for Sparse Regional Mapping:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Recommended Data Sets for Gridded Regional Mapping:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 +-----------------+------------------------+--------------------+---------------+
 | :ref:`SST`      | :ref:`Chlorophyll_REP` | :ref:`Darwin_3day` | :ref:`Pisces` |
