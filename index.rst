@@ -21,11 +21,9 @@ The Simons CMAP is an open source database service to unify, visualize, and anal
 
   getting_started/overview.rst
   getting_started/installation.rst
-
   catalog/catalog
-
   tutorials/tutorials
-
+  submitting_data/submitting_data
   API_ref/API_reference
-
   FAQ/FAQ
+  contact_and_contribute/contact_and_contribute
