@@ -111,7 +111,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../API_ref/API_reference.html">API Reference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../FAQ/FAQ.html">FAQ</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../FAQ/FAQ.html#what-is-a-doi-and-how-do-i-get-one-for-my-dataset">What is a DOI and how do I get one for my dataset?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact_and_contribute/contact_and_contribute.html">Contact and Contribute</a></li>
 </ul>
 
             
@@ -447,7 +447,6 @@ Example: seaflow_2018-05-25_v1.0.xlxs</p>
 </div>
 <div class="section" id="third-sheet-vars-meta-data">
 <h3>Third Sheet: “vars_meta_data”<a class="headerlink" href="#third-sheet-vars-meta-data" title="Permalink to this headline">¶</a></h3>
-<p>asdf</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="5%" />
@@ -575,8 +574,29 @@ Example: seaflow_2018-05-25_v1.0.xlxs</p>
 <li>examples: [field sample, Biology, abundance, synechococcus, …]</li>
 </ul>
 </li>
-<li><p class="first"><strong>var_comment</strong>: any other comment about the variable</p>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><strong>Keywords are variable-specific and case-insensitive. The suggested format for each variable keyword list is:</strong></p>
 <ul class="simple">
+<li>var_short_name</li>
+<li>var_long_name</li>
+<li>Example keywords related to any official or unofficial variable names:   no3 / nitrate / no_3 …</li>
+<li>Example keywords related to sensor/apparatus:  cruise / satellite / computer (in case of mode) / CTD / Towfish ….</li>
+<li>Example keywords related to official or unofficial cruise names (if applicable): HOT16 / KM1314 / ….</li>
+<li>Example keywords related to data owners institution:  UH / university of hawaii / …</li>
+<li>Example keywords related to data production techniques: spectroscopy / flow cytometry / …</li>
+<li>Example keywords related to the research context: omics / 16s / …</li>
+<li>Example keywords related to the associated discipline(s): chemistry / biology / physics / biogeochemical / biogeography …</li>
+<li>Any other keywords you think are relevant</li>
+</ul>
+<p><strong>Keyword Example for &lt;proprochloro_abundance&gt; variable in the SeaFlow Dataset:</strong></p>
+<ul class="last simple">
+<li>prochloro_abundance, Prochlorococcus Abundance , seaflow, pro, prochloro, prochlorococcus, flow, cytometry, flow-cytometry, insitu, in-situ, cruise,  observation, rep, reprocessed, bio, biology, armbrust, UW, abundance,cell abundance</li>
+</ul>
+</div>
+<ol class="arabic simple" start="11">
+<li><strong>var_comment</strong>: any other comment about the variable<ul>
 <li>type: string</li>
 <li>length: no limit</li>
 </ul>

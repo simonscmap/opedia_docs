@@ -189,7 +189,7 @@ Third Sheet: "vars_meta_data"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-asdf
+
 
 +-----------------------------------+-----------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------+-----------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+------------------------------------+--------------------------------+
 |var_short_name                     |    var_long_name                  |     var_standard_name    | var_sensor                                                                                             |  var_unit                   | var_spatial_res                                                                     |      var_temporal_res                                                  | var_missing_value                                                                | var_discipline                                                                                            | var_keywords                       |  var_comment                   |
@@ -256,6 +256,25 @@ asdf
     - type: string
     - length: <500 chars
     - examples: [field sample, Biology, abundance, synechococcus, ...]
+
+.. note:: **Keywords are variable-specific and case-insensitive. The suggested format for each variable keyword list is:**
+
+    - var_short_name
+    - var_long_name
+    - Example keywords related to any official or unofficial variable names:   no3 / nitrate / no_3 ...
+    - Example keywords related to sensor/apparatus:  cruise / satellite / computer (in case of mode) / CTD / Towfish ....
+    - Example keywords related to official or unofficial cruise names (if applicable): HOT16 / KM1314 / ....
+    - Example keywords related to data owners institution:  UW / University of Washington / ...
+    - Example keywords related to data production techniques: spectroscopy / flow cytometry / ...
+    - Example keywords related to the research context: omics / 16s / ...
+    - Example keywords related to the associated discipline(s): chemistry / biology / physics / biogeochemical / biogeography ...
+    - Any other keywords you think are relevant
+
+
+    **Keyword Example for <proprochloro_abundance> variable in the SeaFlow Dataset:**
+
+    - prochloro_abundance, Prochlorococcus Abundance , seaflow, pro, prochloro, prochlorococcus, flow, cytometry, flow-cytometry, insitu, in-situ, cruise,  observation, rep, reprocessed, bio, biology, armbrust, UW, abundance,cell abundance
+
 
 11. **var_comment**: any other comment about the variable
 
