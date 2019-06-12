@@ -56,7 +56,7 @@ Exact Amplicon Sequence Variant Abundances from the ANT28-5 Latitudinal Transect
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
 .. note::
-  ESV has been updated to include new data on April 23rd 2019.
+  ESV is currently undergoing maintenance and will be unavailable 
 
 
 Recommended Visualizations
