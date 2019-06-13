@@ -35,7 +35,6 @@
 .. .. _Gitter:
 
 
-
 FAQ
 ===
 
@@ -61,3 +60,13 @@ Below is an example list of entities that may issue and link your dataset to a u
   - SEANOE_
   - NASA_Goddard_
   - NERC_
+
+
+.. - How do I retrieve dataset metadata?
+.. -------------------------------------
+
+
+How do I cite data found in CMAP?
+---------------------------------
+
+DOI or relevant citations for specific datatsets can be found in the Data :ref:`Catalog` or in the retrieved metadata.

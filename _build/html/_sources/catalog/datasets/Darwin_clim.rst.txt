@@ -42,7 +42,7 @@ Darwin Climatology
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+==============+
 | :ref:`Darwin_clim`            |  |globe| | |comp|   |   Model     |     1/2° X 1/2°        | Monthly Climatology  |              |              |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+

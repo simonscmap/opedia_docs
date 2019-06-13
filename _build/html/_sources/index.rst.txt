@@ -11,7 +11,7 @@ The Simons CMAP is an open source database service to unify, visualize, and anal
 |
 
 .. figure:: _static/caustics_grid.png
-   :scale: 70 %
+   :scale: 80 %
    :align: center
 
 |

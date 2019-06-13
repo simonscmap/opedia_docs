@@ -45,7 +45,7 @@ LCS Reprocessed
   :target: ../../tutorials/front.html
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 | :ref:`LCS_REP`                |  |globe| | |sat|    | Observation |     0.04° X 0.04°      |         Daily        |  2014-01-01  | 2017-05-01 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+

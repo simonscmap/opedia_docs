@@ -107,6 +107,11 @@ html_logo = '_static/pacific_sst_year.gif'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_context = {
+    'css_files': [
+        '_static/theme_overrides.css',  # override wide tables in RTD theme
+        ],
+     }
 # adapted from: http://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
 # and
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117

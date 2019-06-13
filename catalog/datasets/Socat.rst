@@ -51,7 +51,7 @@ Surface Ocean CO₂ Atlas
 
 
 +------------------------+----------+--------+-------------+----------------------------+----------------------+--------------+------------+
-| Datset Name            | Coverage | Sensor |  Make       |     Spatial Resolution     | Temporal Resolution  |  Start Date  |  End Date  |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +========================+==========+========+=============+============================+======================+==============+============+
 | :ref:`SOCAT`           | |globe|  ||cruise|| Observation |     Irregular              |        Irregular     |  2003-01-06  | 2015-12-21 |
 +------------------------+----------+--------+-------------+----------------------------+----------------------+--------------+------------+

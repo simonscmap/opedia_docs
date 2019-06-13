@@ -40,7 +40,7 @@ Pisces
   :target: ../../tutorials/depth_profile.html
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 | :ref:`Pisces`                 |  |globe| | |comp|   |   Model     |     1/2° X 1/2°        |         Weekly       | 2011-12-31   | 2019-03-16 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+

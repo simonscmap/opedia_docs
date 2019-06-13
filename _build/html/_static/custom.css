@@ -27,10 +27,14 @@ table.docutils td p {
 table.docutils td li {
   line-height: 18px;
 
-}
+/* @media (min-width 980px) {.wy-nav-content {
+    max-width: none;}} */
+
+/* .no-max-width {max-width: none;} */
+/* }
 .wy-nav-content {
     max-width: none;
-}
+} */
 
 
 img.align-center {float: center;}

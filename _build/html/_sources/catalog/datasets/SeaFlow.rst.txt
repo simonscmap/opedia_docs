@@ -48,7 +48,7 @@ SeaFlow
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 | :ref:`SeaFlow`                | |globe|  ||cruise|  | Observation |     Irregular          |    Three Minutes     |  2003-01-06  | 2015-12-21 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+

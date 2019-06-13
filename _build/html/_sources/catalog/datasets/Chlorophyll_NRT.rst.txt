@@ -45,7 +45,7 @@ Chlorophyll Near-Real-Time
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+==============+
 | :ref:`Chlorophyll_NRT`        |  |globe| | |sat|    | Observation |        4km X 4km       |         Daily        |  2019-01-01  |Near-Real-Time|
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+

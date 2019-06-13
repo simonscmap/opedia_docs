@@ -44,7 +44,7 @@ Chlorophyll Reprocessed
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date  |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 | :ref:`Chlorophyll_REP`        |  |globe| | |sat|    | Observation |        4km X 4km       |         Daily        |  2012-01-01  | 2016-12-31 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+

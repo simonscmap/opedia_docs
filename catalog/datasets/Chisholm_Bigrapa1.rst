@@ -48,7 +48,7 @@ Prochlorococcus Abundance and Metadata for the BigGrapa 1 Cruise
   :target: ../../tutorials/eddy.html
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+==============+
 | | :ref:`Chisholm_bigrapa1`    | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  2010-11-19  | 2010-12-12   |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+

@@ -49,7 +49,7 @@ Atlantic Meridional Transect Cruise 13: Prochlorococcus Abundance, Synechococcus
   :target: ../../tutorials/eddy.html
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+==============+
 | | :ref:`Chisholm_AMT13`       | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  2003-01-10  | 2003-12-10   |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+

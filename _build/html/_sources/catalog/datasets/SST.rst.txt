@@ -42,7 +42,7 @@ Sea Surface Temperature
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
-| Datset Name                   | Coverage | Sensor   |  Make       |  Spatial Resolution    | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
 +===============================+==========+==========+=============+========================+======================+==============+==============+
 | :ref:`SST`                    |  |globe| | |sat|    | Observation |     1/4° X 1/4°        |         Daily        |  2009-01-01  |Near-Real-Time|
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+--------------+
