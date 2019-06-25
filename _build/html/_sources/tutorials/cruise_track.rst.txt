@@ -32,25 +32,24 @@ Code Tutorial
 .. code-block:: python
 
 
-    from opedia import plotCruise as CRS
+  from opedia import plotCruise as CRS
 
-    DB_Cruise = True                 # < True > if cruise trajectory already exists in DB. < False > if arbiturary cruise file (e.g. virtual)
-    source = 'tblSeaFlow'            # cruise table name or path to csv trajectory file
-    cruise = 'Gradients1.0'              # cruise name, or file name of the csv trajectory file
-    resampTau = '6H'                 # resample the cruise trajectory making trajectory time-space resolution coarser: e.g. '6H' (6 hourly), '3T' (3 minutes), ... '0' (ignore)
-    fname = 'alongTrack'             # figure filename
-    tables = ['tblSeaFlow', 'tblDarwin_Plankton_Climatology', 'tblCHL_OI_REP']    # list of varaible table names
-    variables = ['picoeuk', 'picoeukaryote_c03_darwin_clim', 'chl']               # list of variable names
-    spatialTolerance = 0.3           # colocalizer spatial tolerance (+/- degrees)
-    exportDataFlag = False           # export the cruise trajectory and colocalized data on disk
-    depth1 = 0                      # depth range start (m)
-    depth2 = 5                       # depth range end (m)
+  DB_Cruise = True                 # < True > if cruise trajectory already exists in DB. < False > if arbiturary cruise file (e.g. virtual)
+  source = 'tblSeaFlow'            # cruise table name or path to csv trajectory file
+  cruise = 'TN292'          # cruise name, or file name of the csv trajectory file
+  resampTau = '6H'                 # resample the cruise trajectory making trajectory time-space resolution coarser: e.g. '6H' (6 hourly), '3T' (3 minutes), ... '0' (ignore)  
+  fname = 'alongTrack'             # figure filename
+  tables = ['tblSeaFlow', 'tblDarwin_Plankton_Climatology', 'tblCHL_OI_REP']    # list of varaible table names
+  variables = ['picoeuk_abundance', 'picoeukaryote_c03_darwin_clim', 'chl']               # list of variable names
+  spatialTolerance = 0.3           # colocalizer spatial tolerance (+/- degrees)
+  exportDataFlag = False           # export the cruise trajectory and colocalized data on disk
+  depth1 = 0                       # depth range start (m)
+  depth2 = 5                       # depth range end (m)
 
 
-    df = CRS.getCruiseTrack(DB_Cruise, source, cruise)
-    df = CRS.resample(df, resampTau)
-    loadedTrack = CRS.plotAlongTrack(tables, variables, cruise, resampTau, df, spatialTolerance, depth1, depth2, fname, exportDataFlag, marker='-', msize=30, clr='darkturquoise')
-
+  df = CRS.getCruiseTrack(DB_Cruise, source, cruise)
+  df = CRS.resample(df, resampTau)
+  loadedTrack = CRS.plotAlongTrack(tables, variables, cruise, resampTau, df, spatialTolerance, depth1, depth2, fname, exportDataFlag, marker='-', msize=30, clr='darkturquoise')
 
 |
 

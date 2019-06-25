@@ -216,14 +216,14 @@ Compare the underway (in-situ) picoeukaryote abundance measurements performed du
 
 <span class="n">DB_Cruise</span> <span class="o">=</span> <span class="bp">True</span>                 <span class="c1"># &lt; True &gt; if cruise trajectory already exists in DB. &lt; False &gt; if arbiturary cruise file (e.g. virtual)</span>
 <span class="n">source</span> <span class="o">=</span> <span class="s1">&#39;tblSeaFlow&#39;</span>            <span class="c1"># cruise table name or path to csv trajectory file</span>
-<span class="n">cruise</span> <span class="o">=</span> <span class="s1">&#39;Gradients1.0&#39;</span>              <span class="c1"># cruise name, or file name of the csv trajectory file</span>
+<span class="n">cruise</span> <span class="o">=</span> <span class="s1">&#39;TN292&#39;</span>          <span class="c1"># cruise name, or file name of the csv trajectory file</span>
 <span class="n">resampTau</span> <span class="o">=</span> <span class="s1">&#39;6H&#39;</span>                 <span class="c1"># resample the cruise trajectory making trajectory time-space resolution coarser: e.g. &#39;6H&#39; (6 hourly), &#39;3T&#39; (3 minutes), ... &#39;0&#39; (ignore)</span>
 <span class="n">fname</span> <span class="o">=</span> <span class="s1">&#39;alongTrack&#39;</span>             <span class="c1"># figure filename</span>
 <span class="n">tables</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tblSeaFlow&#39;</span><span class="p">,</span> <span class="s1">&#39;tblDarwin_Plankton_Climatology&#39;</span><span class="p">,</span> <span class="s1">&#39;tblCHL_OI_REP&#39;</span><span class="p">]</span>    <span class="c1"># list of varaible table names</span>
-<span class="n">variables</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;picoeuk&#39;</span><span class="p">,</span> <span class="s1">&#39;picoeukaryote_c03_darwin_clim&#39;</span><span class="p">,</span> <span class="s1">&#39;chl&#39;</span><span class="p">]</span>               <span class="c1"># list of variable names</span>
+<span class="n">variables</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;picoeuk_abundance&#39;</span><span class="p">,</span> <span class="s1">&#39;picoeukaryote_c03_darwin_clim&#39;</span><span class="p">,</span> <span class="s1">&#39;chl&#39;</span><span class="p">]</span>               <span class="c1"># list of variable names</span>
 <span class="n">spatialTolerance</span> <span class="o">=</span> <span class="mf">0.3</span>           <span class="c1"># colocalizer spatial tolerance (+/- degrees)</span>
 <span class="n">exportDataFlag</span> <span class="o">=</span> <span class="bp">False</span>           <span class="c1"># export the cruise trajectory and colocalized data on disk</span>
-<span class="n">depth1</span> <span class="o">=</span> <span class="mi">0</span>                      <span class="c1"># depth range start (m)</span>
+<span class="n">depth1</span> <span class="o">=</span> <span class="mi">0</span>                       <span class="c1"># depth range start (m)</span>
 <span class="n">depth2</span> <span class="o">=</span> <span class="mi">5</span>                       <span class="c1"># depth range end (m)</span>
 
 
