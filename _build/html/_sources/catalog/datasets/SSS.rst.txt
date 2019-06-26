@@ -42,9 +42,9 @@ Sea Surface Salinity
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date  |
 +===============================+==========+==========+=============+========================+======================+==============+============+
-| :ref:`SSS`                    |  |globe| | |sat|    | Observation |     70km X 70km        |         Daily        |  2015-03-31  | 2019-03-12 |
+| :ref:`SSS`                    |  |globe| | |sat|    | Observation |    1/4° X 1/4°         |         Daily        |  2015-03-31  | 2019-03-12 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
 Recommended Visualizations
@@ -74,7 +74,12 @@ Table of Variables
 Dataset Description
 *******************
 
-Simons CMAP contains **Sea Surface Salinity** records from 2015-03-31 through 2019-03-12 collected from the Soil Moisture Active Passive (SMAP) platform. The SMAP mission was launched on January 31, 2015. The onboard instruments began observations soon after in April 2015. Although SMAP was designed to measure soil moisture from space, its L-band radiometer can also be used to measure sea surface salinity (SSS) and sea surface wind speed (SSWS).
+The Sea Surface Salinity dataset in CMAP is the the **SMAP_RSS_L3_SSS_SMI_8DAY-RUNNINGMEAN_V3_70KM_1** NASA dataset.
+This sea surface salinity product has a near-global spatial coverage gridded at 1/4° X 1/4°, giving a spatial resolution of approximately 70km.
+Temporal resolution is daily and optimal interpolation is not used.
+The SSS data is derived from an L-band radiometer atop of the *Soil Moisture Active Pass* (SMAP) satellite mission. SMAP operates in a near-polar orbit with a beam swath of 1000km. Exact repeat overpasses happen every eight days.
+
+
 
 
 
@@ -87,11 +92,16 @@ http://www.remss.com/missions/smap/
 
 https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L3/RSS/V3/8day_running/SCI/70KM
 
+
 How to Acknowledge
 ******************
 
 Meissner, T., F. Wentz, A. Manaster, 2018.Remote Sensing Systems SMAP L2C Sea Surface Salinity, Version 3.0 validated release, Remote Sensing Systems, Santa Rosa, CA, USA.
 
+Fore,A.G, S.H. Yueh, W. Tang, B.W. Stiles, and A.K. Hayashi (2016). Combined Active/Passive Retrievals of Ocean Vector Wind and Sea Surface Salinity With SMAP. IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, VOL. 54, NO. 12. p.7396-7404. DOI: 10.1109/TGRS.2016.2601486
+
 
 Version History
 ***************
+
+**v1**
