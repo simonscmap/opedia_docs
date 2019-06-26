@@ -75,18 +75,26 @@ Table of Variables
 Dataset Description
 *******************
 
-Simons CMAP contains **Sea Surface Temperature** records from 2013-01-01 through 2017-05-15 collected from the Group for High Resolution Sea Surface Temperature (GHRSST) project. Data is gathered from the from a combination of in-situ sensors and satellite radiometer missions. The data is an interpolated product with the spatial resolution of 0.25 degrees and a daily temporal resolution.
+The SST dataset in CMAP is the **GHRSST Level 4 AVHRR_OI Global Blended Sea Surface Temperature Analysis (GDS version 2) from NCEI**.
+This data product has a 1/4° X 1/4° degree gridded spatial resolution with global ocean coverage at a 1 day temporal interval.
+The dataset is derived from a combination of multiple AVHRR (Advanced Very High Resolution Radiometer) satellites along with in-situ sst measurements from ship and buoy measurements. These data sources are optimally interpolated to produce a complete smoothed grid.
 
-More information can be found Here_
 
 
 Data Source
 ***********
 
-Data Provider	Creator:	National Centers for Environmental Information
+Creator:	National Centers for Environmental Information
+
 Release Place:	National Centers for Environmental Information, Asheville, NC, USA
 
+Release Date:	2016-Apr-20
+
+Resource:	none
+
 https://podaac.jpl.nasa.gov/dataset/AVHRR_OI-NCEI-L4-GLOB-v2.0
+
+https://podaac-tools.jpl.nasa.gov/drive/files/OceanTemperature/ghrsst/docs/GDS20r5.pdf
 
 How to Acknowledge
 ******************
@@ -95,3 +103,5 @@ http://dx.doi.org/10.5067/GHAAO-4BC02
 
 Version History
 ***************
+
+**2.0**
