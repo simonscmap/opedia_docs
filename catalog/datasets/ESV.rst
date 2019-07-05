@@ -50,7 +50,7 @@ Exact Amplicon Sequence Variant Abundances from the ANT28-5 Latitudinal Transect
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date  |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 |:ref:`ESV`                     | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  2012-04-11  | 2012-05-11 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+

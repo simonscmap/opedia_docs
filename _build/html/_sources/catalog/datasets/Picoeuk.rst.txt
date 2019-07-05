@@ -50,7 +50,7 @@ Global Distributions of Picophytoplankton Abundance and Biomass
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date  |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 |:ref:`pikophytoplankton`       | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  1987-06-27  | 2011-08-03 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+

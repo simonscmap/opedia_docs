@@ -40,7 +40,7 @@ Mixed-Layer-Depth NRT
   :target: ../../tutorials/depth_profile.html
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date  |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 | :ref:`MLD`                    |  |globe| |  |comp|  |   Model     |     1/12° X 1/12°      |         Daily        | 2019-02-20   | 2019-03-20 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+

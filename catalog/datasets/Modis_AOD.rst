@@ -43,7 +43,7 @@ MODIS Aerosol Optical Depth
 
 
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
-| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date    |
+| Dataset Name                  | Coverage | Sensor   |  Make       |     Spatial Resolution | Temporal Resolution  |  Start Date  |  End Date  |
 +===============================+==========+==========+=============+========================+======================+==============+============+
 | :ref:`Modis_AOD`              |  |globe| | |sat|    | Observation |     1° X 1°            |  Monthly Gridded     |  2002-07-01  | 2019-02-01 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
