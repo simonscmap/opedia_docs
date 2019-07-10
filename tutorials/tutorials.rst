@@ -79,6 +79,11 @@ Tutorials
   :target: cruise_planning.html
 
 
+  .. |demo| image:: /_static/CMAP_logo.pn
+    :align: middle
+    :scale: 30%
+    :target: demo.html
+
 
 
 The tutorials include both GUI and script approaches. The GUI tutorials may include a video demonstration and the script approach include example code.
@@ -105,9 +110,9 @@ The tutorials include both GUI and script approaches. The GUI tutorials may incl
 +---------------------------+---------------------------+---------------------------+
 |  **Front Sampling**       |**Custom Data**            |**Retrieve Dataset Subset**|
 +---------------------------+---------------------------+---------------------------+
-| |sql|                     |        |cp|               |                           |
+| |sql|                     |        |cp|               |            |demo|         |
 +---------------------------+---------------------------+---------------------------+
-| **SQL Queries**           | **Cruise Planning**       |                           |
+| **SQL Queries**           | **Cruise Planning**       |        **DEMO**           |
 +---------------------------+---------------------------+---------------------------+
 
 
