@@ -79,10 +79,10 @@ Tutorials
   :target: cruise_planning.html
 
 
-  .. |demo| image:: /_static/CMAP_logo.pn
-    :align: middle
-    :scale: 30%
-    :target: demo.html
+.. |demo| image:: /_static/CMAP_logo.png
+  :align: middle
+  :scale: 50%
+  :target: demo.html
 
 
 
@@ -140,3 +140,4 @@ The tutorials include both GUI and script approaches. The GUI tutorials may incl
   retrieve_data
   sql
   cruise_planning
+  demo
