@@ -60,10 +60,33 @@ Recommended Visualizations
 Table of Variables
 ******************
 
+Nutrient
+--------
+
 .. raw:: html
 
-    <iframe src="../../_static/var_tables/tblDarwin_Nutrient_3day/tblDarwin_Nutrient_3day.html"  frameborder = 0 height = '250px' width="100%">></iframe>
+    <iframe src="../../_static/var_tables/tblDarwin_Nutrient/tblDarwin_Nutrient.html"  frameborder = 0 height = '220px' width="100%">></iframe>
 
+Ecosystem
+---------
+
+.. raw:: html
+
+    <iframe src="../../_static/var_tables/tblDarwin_Ecosystem/tblDarwin_Ecosystem.html"  frameborder = 0 height = '220px' width="100%">></iframe>
+
+Ocean Color
+-----------
+
+.. raw:: html
+
+    <iframe src="../../_static/var_tables/tblDarwin_Ocean_Color/tblDarwin_Ocean_Color.html"  frameborder = 0 height = '150px' width="100%">></iframe>
+
+Phytoplankton
+-------------
+
+.. raw:: html
+
+    <iframe src="../../_static/var_tables/tblDarwin_Phytoplankton/tblDarwin_Phytoplankton.html"  frameborder = 0 height = '220px' width="100%">></iframe>
 
 
 
