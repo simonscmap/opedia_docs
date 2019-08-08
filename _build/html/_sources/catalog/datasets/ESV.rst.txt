@@ -55,8 +55,6 @@ Exact Amplicon Sequence Variant Abundances from the ANT28-5 Latitudinal Transect
 |:ref:`ESV`                     | |globe|  ||cruise|  | Observation |     Irregular          |        Irregular     |  2012-04-11  | 2012-05-11 |
 +-------------------------------+----------+----------+-------------+------------------------+----------------------+--------------+------------+
 
-.. note::
-  ESV is currently undergoing maintenance and will be unavailable
 
 
 Recommended Visualizations
