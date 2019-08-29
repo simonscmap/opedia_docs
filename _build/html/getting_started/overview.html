@@ -168,29 +168,29 @@
 <h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
 <p>Oceanography is a multidisciplinary field which involves synthesizing physical, chemical and biological data. Analyzing these observations often requires harmonizing data such as satellite measurements with model estimates. Handling satellite and model data sets is particularly challenging for the following reasons.</p>
 <ul class="simple">
-<li>Are scattered all over the web and might not be trivial to retrieve or discover</li>
-<li>Are massive in size</li>
-<li>Have varying spatial and temporal dimensions and resolutions.</li>
+<li><p>Are scattered all over the web and might not be trivial to retrieve or discover</p></li>
+<li><p>Are massive in size</p></li>
+<li><p>Have varying spatial and temporal dimensions and resolutions.</p></li>
 </ul>
 <p>This project’s goal is to establish a unifying data structure and streamline the process of subsetting, extracting, and visualizing data. We propose that the space and time information should act as the linking chain between data sets, as every single data point must be annotated with its own space and time data. Therefore, all data sets hosted in Simons CMAP have the following simple data structure:</p>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="8%" />
-<col width="7%" />
-<col width="7%" />
-<col width="26%" />
-<col width="23%" />
-<col width="7%" />
-<col width="23%" />
+<col style="width: 8%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 26%" />
+<col style="width: 23%" />
+<col style="width: 7%" />
+<col style="width: 23%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>time</td>
-<td>lat</td>
-<td>lon</td>
-<td>depth {if exists}</td>
-<td>&lt;<span class="math notranslate nohighlight">\(var_1\)</span>&gt;</td>
-<td>…</td>
-<td>&lt;<span class="math notranslate nohighlight">\(var_n\)</span>&gt;</td>
+<tbody>
+<tr class="row-odd"><td><p>time</p></td>
+<td><p>lat</p></td>
+<td><p>lon</p></td>
+<td><p>depth {if exists}</p></td>
+<td><p>&lt;<span class="math notranslate nohighlight">\(var_1\)</span>&gt;</p></td>
+<td><p>…</p></td>
+<td><p>&lt;<span class="math notranslate nohighlight">\(var_n\)</span>&gt;</p></td>
 </tr>
 </tbody>
 </table>

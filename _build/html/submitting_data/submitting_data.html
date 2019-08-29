@@ -184,24 +184,24 @@
 <p>To add your dataset to CMAP and make it usable we have a few data and metadata conventions.</p>
 <div class="section" id="data-must-be-in-the-format">
 <h3>1. Data must be in the format:<a class="headerlink" href="#data-must-be-in-the-format" title="Permalink to this headline">¶</a></h3>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="8%" />
-<col width="7%" />
-<col width="7%" />
-<col width="26%" />
-<col width="23%" />
-<col width="7%" />
-<col width="23%" />
+<col style="width: 8%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 26%" />
+<col style="width: 23%" />
+<col style="width: 7%" />
+<col style="width: 23%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>time</td>
-<td>lat</td>
-<td>lon</td>
-<td>depth {if exists}</td>
-<td>&lt;<span class="math notranslate nohighlight">\(var_1\)</span>&gt;</td>
-<td>…</td>
-<td>&lt;<span class="math notranslate nohighlight">\(var_n\)</span>&gt;</td>
+<tbody>
+<tr class="row-odd"><td><p>time</p></td>
+<td><p>lat</p></td>
+<td><p>lon</p></td>
+<td><p>depth {if exists}</p></td>
+<td><p>&lt;<span class="math notranslate nohighlight">\(var_1\)</span>&gt;</p></td>
+<td><p>…</p></td>
+<td><p>&lt;<span class="math notranslate nohighlight">\(var_n\)</span>&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -237,85 +237,80 @@ Example: seaflow_2018-05-25_v1.0.xlxs</p>
 </div>
 <div class="section" id="first-sheet-data">
 <h3>First Sheet: “data”<a class="headerlink" href="#first-sheet-data" title="Permalink to this headline">¶</a></h3>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="24%" />
-<col width="24%" />
-<col width="25%" />
-<col width="14%" />
-<col width="5%" />
-<col width="2%" />
-<col width="5%" />
+<col style="width: 24%" />
+<col style="width: 24%" />
+<col style="width: 25%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 2%" />
+<col style="width: 5%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>time</td>
-<td>lat</td>
-<td>lon</td>
-<td>depth {if exists}</td>
-<td>&lt;<span class="math notranslate nohighlight">\(var_1\)</span>&gt;</td>
-<td>…</td>
-<td>&lt;<span class="math notranslate nohighlight">\(var_n\)</span>&gt;</td>
+<tbody>
+<tr class="row-odd"><td><p>time</p></td>
+<td><p>lat</p></td>
+<td><p>lon</p></td>
+<td><p>depth {if exists}</p></td>
+<td><p>&lt;<span class="math notranslate nohighlight">\(var_1\)</span>&gt;</p></td>
+<td><p>…</p></td>
+<td><p>&lt;<span class="math notranslate nohighlight">\(var_n\)</span>&gt;</p></td>
 </tr>
-<tr class="row-even"><td>&lt; Format  %Y-%m-%dT%H:%M:%S,  Time-Zone:  UTC,  example: 2014-02-28T14:25:55 &gt;</td>
-<td>&lt; Format: Decimal (not military grid system), Unit: degree, Range: [-90, 90] &gt;</td>
-<td>&lt; Format: Decimal (not military grid system), Unit: degree, Range: [-180, 180] &gt;</td>
-<td>&lt; Positive value, Unit: [m], example: 10.25 &gt;</td>
-<td>&lt; variable 1 &gt;</td>
-<td>…</td>
-<td>&lt; variable n &gt;</td>
+<tr class="row-even"><td><p>&lt; Format  %Y-%m-%dT%H:%M:%S,  Time-Zone:  UTC,  example: 2014-02-28T14:25:55 &gt;</p></td>
+<td><p>&lt; Format: Decimal (not military grid system), Unit: degree, Range: [-90, 90] &gt;</p></td>
+<td><p>&lt; Format: Decimal (not military grid system), Unit: degree, Range: [-180, 180] &gt;</p></td>
+<td><p>&lt; Positive value, Unit: [m], example: 10.25 &gt;</p></td>
+<td><p>&lt; variable 1 &gt;</p></td>
+<td><p>…</p></td>
+<td><p>&lt; variable n &gt;</p></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Columns by order</strong>:</p>
 <ol class="arabic simple">
-<li><dl class="first docutils">
-<dt><strong>time</strong>: corresponding datetime</dt>
-<dd><ul class="first last">
-<li>type: datetime</li>
-<li>format: %Y-%m-%dT%H:%M:%S [example: 2018-03-29T18:05:55]</li>
-<li>time zone: UTC</li>
-<li>note: there is a blank space between date and time</li>
-<li>note: zero padding required</li>
+<li><dl class="simple">
+<dt><strong>time</strong>: corresponding datetime</dt><dd><ul class="simple">
+<li><p>type: datetime</p></li>
+<li><p>format: %Y-%m-%dT%H:%M:%S [example: 2018-03-29T18:05:55]</p></li>
+<li><p>time zone: UTC</p></li>
+<li><p>note: there is a blank space between date and time</p></li>
+<li><p>note: zero padding required</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt><strong>lat</strong>: latitude</dt>
-<dd><ul class="first last">
-<li>type: float</li>
-<li>format: Decimal (not military grid system)</li>
-<li>unit: degree north</li>
-<li>range: [-90, 90]</li>
+<li><dl class="simple">
+<dt><strong>lat</strong>: latitude</dt><dd><ul class="simple">
+<li><p>type: float</p></li>
+<li><p>format: Decimal (not military grid system)</p></li>
+<li><p>unit: degree north</p></li>
+<li><p>range: [-90, 90]</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt><strong>lon</strong>: longitude</dt>
-<dd><ul class="first last">
-<li>type: float</li>
-<li>format: Decimal (not military grid system)</li>
-<li>unit: degree east</li>
-<li>range: [-180, 180]</li>
+<li><dl class="simple">
+<dt><strong>lon</strong>: longitude</dt><dd><ul class="simple">
+<li><p>type: float</p></li>
+<li><p>format: Decimal (not military grid system)</p></li>
+<li><p>unit: degree east</p></li>
+<li><p>range: [-180, 180]</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt><strong>depth</strong>: depth</dt>
-<dd><ul class="first last">
-<li>type: float</li>
-<li>unit: meters</li>
-<li>range: [0, ∞]</li>
+<li><dl class="simple">
+<dt><strong>depth</strong>: depth</dt><dd><ul class="simple">
+<li><p>type: float</p></li>
+<li><p>unit: meters</p></li>
+<li><p>range: [0, ∞]</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt><strong>&lt;v_1&gt;</strong>: first variable (short name)</dt>
-<dd><ul class="first last">
-<li>Add more columns similar to the last column, if dataset has more than one variable.</li>
+<li><dl class="simple">
+<dt><strong>&lt;v_1&gt;</strong>: first variable (short name)</dt><dd><ul class="simple">
+<li><p>Add more columns similar to the last column, if dataset has more than one variable.</p></li>
 </ul>
 </dd>
 </dl>
@@ -324,281 +319,281 @@ Example: seaflow_2018-05-25_v1.0.xlxs</p>
 </div>
 <div class="section" id="second-sheet-dataset-meta-data">
 <h3>Second Sheet: “dataset_meta_data”<a class="headerlink" href="#second-sheet-dataset-meta-data" title="Permalink to this headline">¶</a></h3>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="9%" />
-<col width="9%" />
-<col width="6%" />
-<col width="9%" />
-<col width="18%" />
-<col width="9%" />
-<col width="13%" />
-<col width="8%" />
-<col width="7%" />
-<col width="11%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 6%" />
+<col style="width: 9%" />
+<col style="width: 18%" />
+<col style="width: 9%" />
+<col style="width: 13%" />
+<col style="width: 8%" />
+<col style="width: 7%" />
+<col style="width: 11%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>dataset_short_name</td>
-<td>dataset_long_name</td>
-<td>dataset_version</td>
-<td>dataset_release_date</td>
-<td>dataset_make</td>
-<td>dataset_source</td>
-<td>dataset_doi</td>
-<td>dataset_history</td>
-<td>dataset_description</td>
-<td>dataset_references</td>
+<tbody>
+<tr class="row-odd"><td><p>dataset_short_name</p></td>
+<td><p>dataset_long_name</p></td>
+<td><p>dataset_version</p></td>
+<td><p>dataset_release_date</p></td>
+<td><p>dataset_make</p></td>
+<td><p>dataset_source</p></td>
+<td><p>dataset_doi</p></td>
+<td><p>dataset_history</p></td>
+<td><p>dataset_description</p></td>
+<td><p>dataset_references</p></td>
 </tr>
-<tr class="row-even"><td>&lt;short name of your dataset (&lt;50 chars)&gt;</td>
-<td>&lt;long name of your dataset (&lt;500 chars)&gt;</td>
-<td>&lt;dataset version (&lt;50 chars)&gt;</td>
-<td>&lt;Format  %Y-%m-%d,  example: 2018-06-20&gt;</td>
-<td>&lt;how dataset is made (fixed options= [assimilation, model, observation]) (&lt;50 chars)&gt;</td>
-<td>&lt;name of your lab/institution (&lt;100 chars)&gt;</td>
-<td>&lt;digital object identifier (doi) associated with the dataset&gt;</td>
-<td>&lt;any note about the dataset evolution&gt;</td>
-<td>&lt;a descrption of your dataset&gt;</td>
-<td>&lt;list of associated docs/publications (&lt;500chars) &gt;</td>
+<tr class="row-even"><td><p>&lt;short name of your dataset (&lt;50 chars)&gt;</p></td>
+<td><p>&lt;long name of your dataset (&lt;500 chars)&gt;</p></td>
+<td><p>&lt;dataset version (&lt;50 chars)&gt;</p></td>
+<td><p>&lt;Format  %Y-%m-%d,  example: 2018-06-20&gt;</p></td>
+<td><p>&lt;how dataset is made (fixed options= [assimilation, model, observation]) (&lt;50 chars)&gt;</p></td>
+<td><p>&lt;name of your lab/institution (&lt;100 chars)&gt;</p></td>
+<td><p>&lt;digital object identifier (doi) associated with the dataset&gt;</p></td>
+<td><p>&lt;any note about the dataset evolution&gt;</p></td>
+<td><p>&lt;a descrption of your dataset&gt;</p></td>
+<td><p>&lt;list of associated docs/publications (&lt;500chars) &gt;</p></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Columns by order</strong>:</p>
 <ol class="arabic">
-<li><dl class="first docutils">
-<dt><strong>dataset_short_name</strong>: dataset short name</dt>
-<dd><ul class="first last simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
+<li><dl class="simple">
+<dt><strong>dataset_short_name</strong>: dataset short name</dt><dd><ul class="simple">
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><p class="first"><strong>dataset_long_name</strong>: descriptive dataset name</p>
+<li><p><strong>dataset_long_name</strong>: descriptive dataset name</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;500 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;500 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>dataset_version</strong>: dataset version</p>
+<li><p><strong>dataset_version</strong>: dataset version</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>dataset_release_date</strong>: dataset release date</p>
+<li><p><strong>dataset_release_date</strong>: dataset release date</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: date</li>
-<li>format: %Y-%m-%d (zero padding required)</li>
+<li><p>type: date</p></li>
+<li><p>format: %Y-%m-%d (zero padding required)</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>dataset_make</strong>: how dataset is made (fixed options= [assimilation, model, observation])</p>
+<li><p><strong>dataset_make</strong>: how dataset is made (fixed options= [assimilation, model, observation])</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>dataset_source</strong>: name of your lab and/or institution</p>
+<li><p><strong>dataset_source</strong>: name of your lab and/or institution</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;100 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;100 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>dataset_doi</strong>:</p>
+<li><p><strong>dataset_doi</strong>:</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length</li>
+<li><p>type: string</p></li>
+<li><p>length</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>dataset_history</strong>: notes regarding the evolution of the dataset with respect to the previous versions, if applicable</p>
+<li><p><strong>dataset_history</strong>: notes regarding the evolution of the dataset with respect to the previous versions, if applicable</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;100 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;100 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>dataset_description</strong>: any additional descriptions</p>
+<li><p><strong>dataset_description</strong>: any additional descriptions</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: no limit</li>
+<li><p>type: string</p></li>
+<li><p>length: no limit</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>dataset_references</strong>: links/citations associated with the dataset documentations/publications (enter each ref. in a separate row)</p>
+<li><p><strong>dataset_references</strong>: links/citations associated with the dataset documentations/publications (enter each ref. in a separate row)</p>
 <ul class="simple">
-<li>type: string</li>
-<li>length: &lt;500 chars per item</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;500 chars per item</p></li>
 </ul>
 </li>
 </ol>
 </div>
 <div class="section" id="third-sheet-vars-meta-data">
 <h3>Third Sheet: “vars_meta_data”<a class="headerlink" href="#third-sheet-vars-meta-data" title="Permalink to this headline">¶</a></h3>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="5%" />
-<col width="5%" />
-<col width="4%" />
-<col width="16%" />
-<col width="5%" />
-<col width="13%" />
-<col width="11%" />
-<col width="13%" />
-<col width="17%" />
-<col width="6%" />
-<col width="5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 4%" />
+<col style="width: 16%" />
+<col style="width: 5%" />
+<col style="width: 13%" />
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 17%" />
+<col style="width: 6%" />
+<col style="width: 5%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>var_short_name</td>
-<td>var_long_name</td>
-<td>var_standard_name</td>
-<td>var_sensor</td>
-<td>var_unit</td>
-<td>var_spatial_res</td>
-<td>var_temporal_res</td>
-<td>var_missing_value</td>
-<td>var_discipline</td>
-<td>var_keywords</td>
-<td>var_comment</td>
+<tbody>
+<tr class="row-odd"><td><p>var_short_name</p></td>
+<td><p>var_long_name</p></td>
+<td><p>var_standard_name</p></td>
+<td><p>var_sensor</p></td>
+<td><p>var_unit</p></td>
+<td><p>var_spatial_res</p></td>
+<td><p>var_temporal_res</p></td>
+<td><p>var_missing_value</p></td>
+<td><p>var_discipline</p></td>
+<td><p>var_keywords</p></td>
+<td><p>var_comment</p></td>
 </tr>
-<tr class="row-even"><td>&lt;variable short name (&lt;50 chars)&gt;</td>
-<td>&lt;variable long name (&lt;500 chars)&gt;</td>
-<td>&lt;variable standard name&gt;</td>
-<td>&lt;device by which variable is measured (&lt;50 chars) examples: [satellite, cruise_name, simulation, …]&gt;</td>
-<td>&lt;variable unit (&lt;50 chars)&gt;</td>
-<td>&lt;variable spatial resolution (examples: [1/25° X 1/25° , 50km X 50km, Irregular] )&gt;</td>
-<td>&lt;variable temporal resolution (examples: [Hourly, Daily, Irregular] )&gt;</td>
-<td>&lt;placeholder for missing values (examples: empty cell, “nan”, “unknown”, #FFFF)&gt;</td>
-<td>&lt;associated discipline(s) (&lt;100 chars) (examples: [Physics, Chemistry, Biology, BioGeoChemistry, etc..])&gt;</td>
-<td>&lt;associated keywords (&lt;500 chars)&gt;</td>
-<td>&lt;variable comment/description&gt;</td>
+<tr class="row-even"><td><p>&lt;variable short name (&lt;50 chars)&gt;</p></td>
+<td><p>&lt;variable long name (&lt;500 chars)&gt;</p></td>
+<td><p>&lt;variable standard name&gt;</p></td>
+<td><p>&lt;device by which variable is measured (&lt;50 chars) examples: [satellite, cruise_name, simulation, …]&gt;</p></td>
+<td><p>&lt;variable unit (&lt;50 chars)&gt;</p></td>
+<td><p>&lt;variable spatial resolution (examples: [1/25° X 1/25° , 50km X 50km, Irregular] )&gt;</p></td>
+<td><p>&lt;variable temporal resolution (examples: [Hourly, Daily, Irregular] )&gt;</p></td>
+<td><p>&lt;placeholder for missing values (examples: empty cell, “nan”, “unknown”, #FFFF)&gt;</p></td>
+<td><p>&lt;associated discipline(s) (&lt;100 chars) (examples: [Physics, Chemistry, Biology, BioGeoChemistry, etc..])&gt;</p></td>
+<td><p>&lt;associated keywords (&lt;500 chars)&gt;</p></td>
+<td><p>&lt;variable comment/description&gt;</p></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Columns by order</strong>:</p>
 <ol class="arabic">
-<li><p class="first"><strong>var_short_name</strong>: variable short name</p>
+<li><p><strong>var_short_name</strong>: variable short name</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_long_name</strong>: descriptive variable name</p>
+<li><p><strong>var_long_name</strong>: descriptive variable name</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;500 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;500 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_standard_name</strong>: standard variable name (more details in CF Conventions and COARDS Conventions)</p>
+<li><p><strong>var_standard_name</strong>: standard variable name (more details in CF Conventions and COARDS Conventions)</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;500 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;500 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_unit</strong>: variable unit</p>
+<li><p><strong>var_unit</strong>: variable unit</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_sensor</strong>: device by which variable is measured</p>
+<li><p><strong>var_sensor</strong>: device by which variable is measured</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
-<li>examples: [satellite, cruise_name, simulation, …]</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
+<li><p>examples: [satellite, cruise_name, simulation, …]</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_spatial_res</strong>: variable spatial resolution</p>
+<li><p><strong>var_spatial_res</strong>: variable spatial resolution</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
-<li>examples: [1/25° X 1/25° , 50km X 50km, Irregular, …]</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
+<li><p>examples: [1/25° X 1/25° , 50km X 50km, Irregular, …]</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_temporal_res</strong>: variable temporal resolution</p>
+<li><p><strong>var_temporal_res</strong>: variable temporal resolution</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
-<li>examples: [Hourly, Daily, Irregular, …]</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
+<li><p>examples: [Hourly, Daily, Irregular, …]</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_missing_value</strong>: placeholder for missing values</p>
+<li><p><strong>var_missing_value</strong>: placeholder for missing values</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;50 chars</li>
-<li>examples: [empty cell, “nan”, “unknown”, #FFFF, -999, …]</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;50 chars</p></li>
+<li><p>examples: [empty cell, “nan”, “unknown”, #FFFF, -999, …]</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_discipline</strong>: the closest discipline(s) associated with the variable</p>
+<li><p><strong>var_discipline</strong>: the closest discipline(s) associated with the variable</p>
 <blockquote>
 <div><ul class="simple">
-<li>type: string</li>
-<li>length: &lt;100 chars</li>
-<li>examples: [Physics, Chemistry, Biology, BioGeoChemistry, …]</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;100 chars</p></li>
+<li><p>examples: [Physics, Chemistry, Biology, BioGeoChemistry, …]</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>var_keywords</strong>: keywords pertinent to the variable (separated by comma)</p>
+<li><p><strong>var_keywords</strong>: keywords pertinent to the variable (separated by comma)</p>
 <ul class="simple">
-<li>type: string</li>
-<li>length: &lt;500 chars</li>
-<li>examples: [field sample, Biology, abundance, synechococcus, …]</li>
+<li><p>type: string</p></li>
+<li><p>length: &lt;500 chars</p></li>
+<li><p>examples: [field sample, Biology, abundance, synechococcus, …]</p></li>
 </ul>
 </li>
 </ol>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
+<p class="admonition-title">Note</p>
 <p><strong>Keywords are variable-specific and case-insensitive. The suggested format for each variable keyword list is:</strong></p>
 <ul class="simple">
-<li>var_short_name</li>
-<li>var_long_name</li>
-<li>Example keywords related to any official or unofficial variable names:   pro / prochloro / …</li>
-<li>Example keywords related to sensor/apparatus:  cruise / satellite / computer (in case of mode) / SeaFlow / ….</li>
-<li>Example keywords related to official or unofficial cruise names (if applicable): KM1427 / Gradients 2.0 / ….</li>
-<li>Example keywords related to data owners institution:  UW / University of Washington / …</li>
-<li>Example keywords related to data production techniques: cytometry / flow cytometry / …</li>
-<li>Example keywords related to the research context: omics / 16s / …</li>
-<li>Example keywords related to the associated discipline(s): chemistry / biology / physics / biogeochemical / biogeography …</li>
-<li>Any other keywords you think are relevant</li>
+<li><p>var_short_name</p></li>
+<li><p>var_long_name</p></li>
+<li><p>Example keywords related to any official or unofficial variable names:   pro / prochloro / …</p></li>
+<li><p>Example keywords related to sensor/apparatus:  cruise / satellite / computer (in case of mode) / SeaFlow / ….</p></li>
+<li><p>Example keywords related to official or unofficial cruise names (if applicable): KM1427 / Gradients 2.0 / ….</p></li>
+<li><p>Example keywords related to data owners institution:  UW / University of Washington / …</p></li>
+<li><p>Example keywords related to data production techniques: cytometry / flow cytometry / …</p></li>
+<li><p>Example keywords related to the research context: omics / 16s / …</p></li>
+<li><p>Example keywords related to the associated discipline(s): chemistry / biology / physics / biogeochemical / biogeography …</p></li>
+<li><p>Any other keywords you think are relevant</p></li>
 </ul>
 <p><strong>Keyword Example for &lt;proprochloro_abundance&gt; variable in the SeaFlow Dataset:</strong></p>
-<ul class="last simple">
-<li>prochloro_abundance, Prochlorococcus Abundance , seaflow, pro, prochloro, prochlorococcus, flow, cytometry, flow-cytometry, insitu, in-situ, cruise,  observation, rep, reprocessed, bio, biology, armbrust, UW, abundance,cell abundance</li>
+<ul class="simple">
+<li><p>prochloro_abundance, Prochlorococcus Abundance , seaflow, pro, prochloro, prochlorococcus, flow, cytometry, flow-cytometry, insitu, in-situ, cruise,  observation, rep, reprocessed, bio, biology, armbrust, UW, abundance,cell abundance</p></li>
 </ul>
 </div>
 <ol class="arabic simple" start="11">
-<li><strong>var_comment</strong>: any other comment about the variable<ul>
-<li>type: string</li>
-<li>length: no limit</li>
+<li><p><strong>var_comment</strong>: any other comment about the variable</p>
+<ul class="simple">
+<li><p>type: string</p></li>
+<li><p>length: no limit</p></li>
 </ul>
 </li>
 </ol>
