@@ -66,7 +66,13 @@ Table of Variables
 
 .. raw:: html
 
-    <iframe src="../../_static/var_calendars/tblPisces_NRT_Calendar.html"  frameborder = 0 height = '130px' width="100%">></iframe>
+    <iframe src="../../_static/var_calendars/tblPisces_NRT_Calendar.html"  frameborder = 0 height = '200px' width="100%">></iframe>
+
+|
+
+.. raw:: html
+
+    <iframe src="../../_static/var_depths/Pisces_depth.html"  frameborder = 0 height = '200px' width="100%">></iframe>
 
 |
 

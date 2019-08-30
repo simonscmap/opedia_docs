@@ -89,6 +89,11 @@ Phytoplankton
     <iframe src="../../_static/var_tables/tblDarwin_Phytoplankton/tblDarwin_Phytoplankton.html"  frameborder = 0 height = '220px' width="100%">></iframe>
 
 
+.. raw:: html
+
+    <iframe src="../../_static/var_depths/Darwin_depth.html"  frameborder = 0 height = '200px' width="100%">></iframe>
+
+|
 
 Dataset Description
 *******************

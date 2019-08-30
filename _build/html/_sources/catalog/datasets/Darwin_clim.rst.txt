@@ -67,8 +67,15 @@ Table of Variables
 
 .. raw:: html
 
+    <iframe src="../../_static/var_depths/Darwin_depth.html"  frameborder = 0 height = '200px' width="100%">></iframe>
+
+|
+
+.. raw:: html
+
     <iframe src="../../_static/var_plots/prokaryote_c02_darwin_clim.html"  frameborder = 0  height="500px" width="100%">></iframe>
 
+|
 
 
 
