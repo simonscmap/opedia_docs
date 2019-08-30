@@ -255,9 +255,10 @@ Third Sheet: "vars_meta_data"
 
     - type: string
     - length: <500 chars
+    - delimiter = ','
     - examples: [field sample, Biology, abundance, synechococcus, ...]
 
-.. note:: **Keywords are variable-specific and case-insensitive. The suggested format for each variable keyword list is:**
+.. note:: **Keywords are variable-specific and case-insensitive. Please separate each keyword by comma. The suggested format for each variable keyword list is:**
 
     - var_short_name
     - var_long_name
