@@ -58,15 +58,6 @@ Global Ocean Data Analysis Project
 
 
 
-Recommended Visualizations
-**************************
-
-+---------------------------+---------------------------+---------------------------+
-| |sm|                      |    |ts|                   |           |hst|           |
-+---------------------------+---------------------------+---------------------------+
-|**Regional Sparse Map**    | **Time Series**           |  **Histogram**            |
-+---------------------------+---------------------------+---------------------------+
-
 
 Table of Variables
 ******************
@@ -76,7 +67,6 @@ Table of Variables
     <iframe src="../../_static/var_tables/tblGLODAP/tblGLODAP.html"  frameborder = 0 height = '300px' width="100%">></iframe>
 
 |
-
 
 
 Dataset Description
